@@ -28,7 +28,7 @@ Now you can click on the paintbrush, select a tile in the Tile Palette and start
 The tiles will not fill out each grid unit. To change this, select the tileset-sliced in the Environment folder, and edit the "Pixels Per Unit" setting to 16, then reimport the tiles.
 
 ## 5. Add an Item
-In the Project view, go to SunnyLand -> artwork -> Sprites -> Items -> Cherry. You will find 7 different pictures of cherries, which make up an animation together. Select all of them at the same time (to select all, select the first, then select the last with Shift+click), then drag it into the scene view. In the explorer that shows up, name your animation cherry.anim and save it. Place your cherry whereever you want, and click on the play button. In the Game view you can now see that the cherry has an animation. Don't forget to go out of the game view by pressing the button again before continuing.
+In the Project view, go to SunnyLand -> artwork -> Sprites -> Items -> Cherry. You will find 7 different pictures of cherries, which make up an animation together. Select all of them at the same time (to select all, select the first, then select the last with Shift+click), then drag it into the scene view. In the explorer that shows up, name your animation cherry.anim and save it. Place your cherry whereever you want, and click on the play button. In the game view you can now see that the cherry has an animation. Don't forget to go out of the game view by pressing the button again before continuing.
 As an example, the level I have designed looks like this:
 ![Level](https://raw.githubusercontent.com/Mert-Guenduez/E-Portfolio-Unity/master/Tutorial/images/Example.PNG)
 ## 6. Add physics
@@ -37,7 +37,7 @@ Select the cherry and click on "Add Component" -> "Physics 2D" -> "Box Collider 
 
 ![Component](https://raw.githubusercontent.com/Mert-Guenduez/E-Portfolio-Unity/master/Tutorial/images/Components.PNG)
 
-Next, select the Tilemap and click on "Add Component" -> "Tilemap" -> "Tilemap Collider 2D". If you dont want certain tiles to collide, you can just select the tile in the project view, and edit the Collider Type to "None".
+Next, select the Tilemap and click on "Add Component" -> "Tilemap" -> "Tilemap Collider 2D". If you dont want certain tiles to collide, you can just select the tile in the project view, and edit the collider type to "None".
 You can now see that the cherry will fall down and land on the ground.
 Adjust the cherries hitbox by selecting it and clicking on the "Edit Collider" button.
 
@@ -76,4 +76,4 @@ public class Move2D : MonoBehaviour
 ````
 After that, you can move your character with the keys "A" and "D", and jump with Spacebar.
 
-This is as far as this tutorial goes. what you could do next is implement a Main Menu, add more movement logic and include a goal in our level, but this would go beyond the scope of a compact and concise live demo. Developing a complete game can, depending on what you want to do, take a very, very long time!
+This is as far as this tutorial goes. what you could do next is implement a main menu, add more movement logic and include a goal in our level, but this would go beyond the scope of a compact and concise live demo. Developing a complete game can, depending on what you want to do, take a very, very long time!
