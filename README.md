@@ -11,5 +11,9 @@ If you want to participate in the live demo, make sure you have the following re
 1. Unity Hub
     - Create an Account [here](https://unity.com/de) (don't worry, it's free)
     - Download [Unity Hub](https://store.unity.com/download?ref=personal) and install it
-    - Open Unity Hub, go to "Installs" and add the Unity Version 2019.1.5f1 (this may take quite a while)
+    - Open Unity Hub and log in to your Account (top right) 
+    - Go to "Installs" and add the Unity Version 2019.1.5f1 (this may take quite a while)
+    - Go to your Account (top right) and click on "Manage license"
+    - Click on "Activate new License" and select Unity Personal -> "I don't use Unity in a professional capacity.", then click on "Done"
+    
 2. Character Controller Script (we will need this controller to help us program the character movement. You can find it in the "Requirements" folder).
