@@ -28,3 +28,35 @@ Adjust the cherries hitbox by selecting it and clicking on the "Edit Collider" b
 
 ## 7. Add the character
 In the project view, go to Sunnyland -> artwork -> Sprites -> player -> idle and add the player (with its animation) to the scene. Additionally, add a Box Collider and Rigidbody component just like you did with the cherries.
+
+Now it is time for the script that we will write. Select "Add Component" -> New Script, and create and add a new script.
+Edit the script so it looks like this:
+````csharp
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Move2D : MonoBehaviour
+{
+	public float moveSpeed = 5f;
+  // Start is called before the first frame update
+  void Start()
+  {
+      
+  }
+
+  // Update is called once per frame
+  void Update()
+  {
+	    Jump();
+      Vector3 movement = new Vector3(Input.GetAxis("Horizontal"), 0f, 0f);
+	    transform.position += movement * Time.deltaTime * moveSpeed;
+  }
+	void Jump(){
+		if (Input.GetButtonDown("Jump")){
+        gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(0f, 7f), ForceMode2D.Impulse);
+		}
+	}
+}
+````
+After that, you can move your character with the keys "A" and "D", and jump with Spacebar.
