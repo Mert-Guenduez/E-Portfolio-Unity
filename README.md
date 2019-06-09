@@ -8,10 +8,10 @@ In the "Tutorial" folder you can find the tutorial on the live demo.
 If you want to participate in the live demo, make sure you have the following requirements:
 
 ## Requirements
-Unity Hub
+1. Unity Hub
     - Create an Account [here](https://unity.com/de) (don't worry, it's free)
     - Download [Unity Hub](https://store.unity.com/download?ref=personal) and install it
-Unity 2019.1.5f1
+2. Unity 2019.1.5f1
     - Open Unity Hub and log in to your Account (top right)
     - Go to "Installs" and add the Unity Version 2019.1.5f1 (this may take quite a while)
     - Go to your Account (top right) and click on "Manage license"
