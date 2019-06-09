@@ -16,4 +16,4 @@ If you want to participate in the live demo, make sure you have the following re
     - Go to your Account (top right) and click on "Manage license"
     - Click on "Activate new License" and select Unity Personal -> "I don't use Unity in a professional capacity.", then click on "Done"
     
-2. Character Controller Script (we will need this controller to help us program the character movement. You can find it in the "Requirements" folder).
+2. Character Controller Script (This is basically just a script that takes care of all the more advanced physics calculations. You can find it in the "Requirements" folder).
