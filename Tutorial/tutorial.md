@@ -22,8 +22,9 @@ In the Project view, go to SunnyLand -> artwork -> Sprites -> Items -> Cherry. Y
 ## 6. Add physics
 
 Select the cherry and click on "Add Component" -> "Physics 2D" -> "Box Collider 2D". Then add another component "Physics 2D" -> "Rigidbody 2D".
-Next, select the Tilemap and click on "Add Component" -> "Tilemap" -> "Tilemap Collider 2D".
+Next, select the Tilemap and click on "Add Component" -> "Tilemap" -> "Tilemap Collider 2D". If you dont want certain tiles to collide, you can just select the tile in the project view, and edit the Collider Type to "None".
 You can now see that the cherry will fall down and land on the ground.
-You can adjust the cherries hitbox by selecting it and clicking on the "Edit Collider" button.
+Adjust the cherries hitbox by selecting it and clicking on the "Edit Collider" button.
 
 ## 7. Add the character
+In the project view, go to Sunnyland -> artwork -> Sprites -> player -> idle and add the player (with its animation) to the scene. Additionally, add a Box Collider and Rigidbody component just like you did with the cherries.
