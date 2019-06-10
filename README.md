@@ -11,7 +11,7 @@ If you want to participate in the live demo, make sure you have the following re
 1. Unity Hub
     - Create an Account [here](https://unity.com/de) (don't worry, it's free)
     - Download [Unity Hub](https://store.unity.com/download?ref=personal) and install it
-2. Unity 2019.1.5f1
+2. Unity 2019.1.*
     - Open Unity Hub and log in to your Account (top right)
     - Go to "Installs" and add the Unity Version 2019.1.* (this may take quite a while)
     - Go to your Account (top right) and click on "Manage license"
